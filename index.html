@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Git Users</title>
+  </head>
+  <body>
+
+    <div class="searchArea">
+      <h1> GitHub Profile </h1>
+
+      <input type="text" name="" id="">
+
+      <buttton class="btn" id="search"  onclick="active()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </buttton>
+      <buttton class="btn" id="toUpdate" oncanplay="clear()">
+        <i class="fa-solid fa-rotate-right"></i>
+      </buttton>
+    </div>
+
+    <div class="profile">
+      <img src='' id="photo"> 
+
+      <h2 id="nameUser"> </h2>
+
+      <div class="results">
+        <div class="containerRepositories">
+          <div>Ropositories</div>
+          <div id="ropositories"> </div>
+        </div>
+
+        <div class="containerFollowers">
+          <div>Followers</div>
+          <div id="followers"> </div>
+        </div>
+
+        <div class="containerFollowing">
+          <div>Following</div>
+          <div id="following"> </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
